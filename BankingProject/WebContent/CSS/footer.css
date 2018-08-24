@@ -1,0 +1,31 @@
+@charset "ISO-8859-1";
+#footer {
+  position: relative;
+  bottom:0;
+  height:2cm;
+  /* negative value of footer height */
+  height: 200px;
+  width:100%;
+  
+}
+
+.verticalLine {
+  border-left:solid #ffffff;
+  margin-top:0.5cm;
+  height: 70%;
+}
+table{
+	margin-top:20px;
+	margin-left:20px;
+}
+.icon:hover {
+    position:relative;
+    top:-3px;
+    left:-3px;
+    right:3px;
+    bottom:3px
+    width:30px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
